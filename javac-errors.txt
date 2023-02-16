@@ -1,0 +1,23 @@
+student-submission\ListExamples.java:4: error: duplicate class: StringChecker
+interface StringChecker { boolean checkString(String s); }
+^
+student-submission\ListExamples.java:6: error: duplicate class: ListExamples
+class ListExamples {
+^
+mixed\TestListExamples.java:1: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+mixed\TestListExamples.java:2: error: package org.junit does not exist
+import org.junit.*;
+^
+mixed\TestListExamples.java:13: error: cannot find symbol
+  @Test(timeout = 500)
+   ^
+  symbol:   class Test
+  location: class TestListExamples
+mixed\TestListExamples.java:19: error: cannot find symbol
+    assertEquals(expected, merged);
+    ^
+  symbol:   method assertEquals(List<String>,List<String>)
+  location: class TestListExamples
+6 errors
